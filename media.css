@@ -101,3 +101,32 @@
     text-align: justify;
   }
 }
+
+
+@media (max-width: 768px) {
+  .contact-container {
+      padding: 15px;
+  }
+
+  .contact-inputs {
+      padding: 8px;
+  }
+
+  button[type="submit"] {
+      padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+      padding: 10px;
+  }
+
+  .contact-inputs {
+      padding: 6px;
+  }
+
+  button[type="submit"] {
+      padding: 6px 12px;
+  }
+}

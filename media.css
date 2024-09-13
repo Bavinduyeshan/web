@@ -103,6 +103,7 @@
 }
 
 
+/* Media Queries */
 @media (max-width: 768px) {
   .contact-container {
       padding: 15px;
@@ -130,3 +131,5 @@
       padding: 6px 12px;
   }
 }
+
+

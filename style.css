@@ -412,7 +412,7 @@ article .icon {
 
 
 
-
+/*
 
 .contact-container{
    height: 50vh;
@@ -471,8 +471,81 @@ article .icon {
 .contact-container form{
     margin-left: 20%;
    
+}*/
+
+
+.contact-container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Changed to center */
+  margin: 0 auto; /* Changed to auto */
+  padding: 0 10px; /* Added padding for small screens */
+  box-sizing: border-box; /* Ensure padding is included in width */
 }
 
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 100%; /* Ensure it takes full width */
+  max-width: 400px; /* Limit max width */
+}
+
+.contact-inputs {
+  width: 100%; /* Changed to 100% */
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.contact-left textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+  width: 100%; /* Ensure it takes full width */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.contact-inputs {
+  border: 2px solid;
+  border-color: black;
+}
+
+.contact-inputs:focus {
+  border: 2px solid #ff994f;
+}
+
+.contact-inputs::placeholder {
+  color: #a9a9a9;
+}
+
+.contact-left button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  cursor: pointer;
+  width: 100%; /* Ensure it takes full width */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.contact-container form {
+  width: 100%; /* Ensure it takes full width */
+  max-width: 400px; /* Limit max width */
+  margin: 0 auto; /* Center the form */
+}
 
 
 

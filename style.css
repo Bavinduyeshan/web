@@ -249,14 +249,25 @@ section {
 
 .btn-container {
   gap: 1rem;
+  
 }
+
+
+
+
+/* Button hover effect */
 
 /* ABOUT SECTION */
 
 #about {
   position: relative;
 }
-
+#about .btn-container {
+  display: flex;
+  justify-content: center;  /* Centers the button */
+  align-items: center;  /* Vertically aligns the button */
+  margin-top: 1rem;  /* Space above the button */
+}
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -271,7 +282,9 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  
 }
+
 
 
 .details-container {
@@ -283,7 +296,9 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
   
+  
 }
+
 
 
 .section-container {
@@ -366,7 +381,7 @@ article .icon {
 /* CONTACT */
 
 #contact {
-    margin-top: 55%;
+    margin-top: 20%;
   display: flex;
   justify-content: center;
   flex-direction: column;

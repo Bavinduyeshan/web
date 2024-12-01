@@ -329,8 +329,18 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
 
+  
+}
+.experience-details-container-2 {
+  display: flex;
+  justify-content: center;
+  
+  width: 380px;
+  height: 75vh;
+
+  
+}
 .article-container {
   display: flex;
   text-align: initial;
@@ -585,3 +595,5 @@ footer {
 footer p {
   text-align: center;
 }
+
+
